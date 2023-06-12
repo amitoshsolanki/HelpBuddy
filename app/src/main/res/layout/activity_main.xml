@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CBD65C"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnEmergencyCall"
+            android:layout_width="237dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:paddingTop="50dp"
+            android:paddingBottom="50dp"
+            android:text="Emergency Call"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/etEmergencyContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter emergency contact number"
+            android:inputType="phone"
+            android:minHeight="48dp" />
+
+        <Button
+            android:id="@+id/btnSetEmergencyContact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Set Emergency Contact"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnAddMedicineReminder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Medicine Reminder"
+            android:layout_marginTop="16dp"/>
+
+        <Button
+            android:id="@+id/btnAddWaterReminder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Water Reminder"
+            android:layout_marginTop="16dp"/>
+
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
